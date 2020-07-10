@@ -1,2 +1,0 @@
-# Studying
-For educational tasks
