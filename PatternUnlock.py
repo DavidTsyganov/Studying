@@ -30,4 +30,4 @@ def PutternUnlock(N, hits):
         if summa_list[i] != "0":
             SUMMA.append(summa_list[i])
     SUMMA = "".join(SUMMA)
-    return SUMMA
+    return str(SUMMA)
