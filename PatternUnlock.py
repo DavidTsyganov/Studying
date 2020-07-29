@@ -1,4 +1,4 @@
-def PutternUnlock(N, hits):
+def PatternUnlock(N, hits):
     diag = [26, 29, 27, 24, 62, 92, 42, 72, 15, 51, 18, 81, 53, 35, 83, 38]
     combination = []
     a = 0
@@ -30,4 +30,4 @@ def PutternUnlock(N, hits):
         if summa_list[i] != "0":
             SUMMA.append(summa_list[i])
     SUMMA = "".join(SUMMA)
-    return str(SUMMA)
+    return SUMMA
